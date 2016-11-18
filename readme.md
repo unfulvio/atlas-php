@@ -14,14 +14,14 @@ $ git clone https://github.com/unfulvio/atlas-php atlas
 
 Then install the project dependencies with:
 
-```
+```shell
 $ cd atlas
 $ composer install
 ```
    
 Then try this proxy, from the directory above the project root, you need to launch an instance of the PHP webserver, like so (assumes you have cloned into `atlas` directory)  
  
-```php
+```shell
 $ cd ..
 $ php -S localhost:8080 -t atlas/
 ```
