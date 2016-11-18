@@ -1,0 +1,22 @@
+{
+  "name": "skyverge/atlas",
+  "description": "A geocoding proxy for Google Maps API",
+  "homepage": "https://skyverge.com",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "SkyVerge team",
+      "email": "contact@skyverge.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "silex/silex": "~2.0",
+    "willdurand/geocoder": "~3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Atlas\\": "src/Atlas"
+    }
+  }
+}
